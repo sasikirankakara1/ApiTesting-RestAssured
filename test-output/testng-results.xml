@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-17T11:34:11 IST" name="Default suite" finished-at="2026-01-17T11:34:15 IST" duration-ms="4345">
+  <suite started-at="2026-01-17T17:21:15 IST" name="Default suite" finished-at="2026-01-17T17:21:20 IST" duration-ms="4308">
     <groups>
     </groups>
-    <test started-at="2026-01-17T11:34:11 IST" name="Default test" finished-at="2026-01-17T11:34:15 IST" duration-ms="4345">
+    <test started-at="2026-01-17T17:21:15 IST" name="Default test" finished-at="2026-01-17T17:21:20 IST" duration-ms="4308">
       <class name="org.rest_assured_getting_started.ExampleOne">
-        <test-method signature="hamcrestValidations()[pri:0, instance:org.rest_assured_getting_started.ExampleOne@67a20f67]" started-at="2026-01-17T11:34:11 IST" name="hamcrestValidations" finished-at="2026-01-17T11:34:15 IST" duration-ms="4297" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.rest_assured_getting_started.ExampleOne@61df66b6]" started-at="2026-01-17T17:21:15 IST" name="launch" finished-at="2026-01-17T17:21:16 IST" duration-ms="510" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hamcrestValidations -->
+        </test-method> <!-- launch -->
+        <test-method signature="requestSpecification()[pri:0, instance:org.rest_assured_getting_started.ExampleOne@61df66b6]" started-at="2026-01-17T17:21:16 IST" name="requestSpecification" finished-at="2026-01-17T17:21:20 IST" duration-ms="3750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestSpecification -->
       </class> <!-- org.rest_assured_getting_started.ExampleOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Sasikiran Kakara\AppData\Local\Temp\testng-eclipse--788626520\testng-customsuite.xml</span>
+                    <span>C:\Users\Sasikiran Kakara\AppData\Local\Temp\testng-eclipse--1238536875\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="org.rest_assured_getting_started.ExampleOne" class="method navigator-link" hash-for-method="hamcrestValidations">hamcrestValidations</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="org.rest_assured_getting_started.ExampleOne" class="method navigator-link" hash-for-method="requestSpecification">requestSpecification</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,9 +126,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="hamcrestValidations">
-                  </a> <!-- hamcrestValidations -->
-                  <span class="method-name">hamcrestValidations</span>
+                  <a name="requestSpecification">
+                  </a> <!-- requestSpecification -->
+                  <span class="method-name">requestSpecification</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Sasikiran Kakara\AppData\Local\Temp\testng-eclipse--788626520\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Sasikiran Kakara\AppData\Local\Temp\testng-eclipse--1238536875\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,7 +147,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;org.rest_assured_getting_started.ExampleOne&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;hamcrestValidations&quot;/&gt;
+          &lt;include name=&quot;requestSpecification&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- org.rest_assured_getting_started.ExampleOne --&gt;
     &lt;/classes&gt;
@@ -191,14 +191,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'hamcrestValidations')
+data.setCell(0, 1, 'requestSpecification')
 data.setCell(0, 2, 'org.rest_assured_getting_started.ExampleOne')
-data.setCell(0, 3, 4297);
+data.setCell(0, 3, 3750);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -213,15 +213,19 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">org.rest_assured_getting_started.ExampleOne</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">Assert_Response_Body</span>
+                <span class="ignored-method-name">headers</span>
                 <br/>
                 <span class="ignored-method-name">Extract_Response</span>
+                <br/>
+                <span class="ignored-method-name">Assert_Response_Body</span>
+                <br/>
+                <span class="ignored-method-name">hamcrestValidations</span>
                 <br/>
                 <span class="ignored-method-name">Automate_GET_Request_Assert_Status_Code</span>
                 <br/>
@@ -236,9 +240,13 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">org.rest_assured_getting_started.ExampleOne</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">hamcrestValidations</span>
+              <div class="configuration-class before">
+                <span class="method-name">launch</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">requestSpecification</span>
+                <span class="method-start">516 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -5,7 +5,8 @@
     <classes>
       <class name="org.rest_assured_getting_started.ExampleOne">
         <methods>
-          <include name="hamcrestValidations"/>
+          <include name="requestSpecification"/>
+          <include name="launch"/>
         </methods>
       </class> <!-- org.rest_assured_getting_started.ExampleOne -->
     </classes>
