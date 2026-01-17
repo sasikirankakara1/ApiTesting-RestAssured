@@ -1,49 +1,92 @@
-# 🚀 REST Assured GET API Automation
+# 🚀 REST Assured – GET API Automation Mastery
 
-> **Automate APIs like a Pro** ⚡  
-> Status Code Validation ✅ | Response Body Assertions 🔍 | Data Extraction 📦 | Hamcrest Power 💪
+<p align="center">
+  <img src="https://img.shields.io/badge/API%20Automation-REST%20Assured-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HTTP-GET-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Validation-Hamcrest-green?style=for-the-badge"/>
+</p>
 
 ---
 
-## 🧠 What’s Covered
-- ✔ Automate GET Requests
-- ✔ Assert HTTP Status Codes
-- ✔ Validate Response Body
-- ✔ Extract Response Data
-- ✔ Perform Hamcrest Validations
+## 🔥 What This Repository Delivers
+
+🚀 **Rock-solid GET API automation**  
+✅ **Status code verification**  
+🔍 **Response body validations**  
+📦 **Response extraction & reuse**  
+💎 **Hamcrest matcher validations**
+
+> _“APIs don’t lie — tests make them speak.”_
+
+---
+
+## 🧠 Core Automation Capabilities
+
+| Capability | Description |
+|----------|-------------|
+| 🚦 Status Code Validation | Ensure correct HTTP responses |
+| 📜 Response Body Assertion | Verify JSON payload accuracy |
+| 📤 Data Extraction | Capture & reuse API response values |
+| 💪 Hamcrest Validations | Readable & powerful assertions |
+
+---
+
+## 🧪 Validation Strategy
+
+🔹 **Positive flow validations**  
+🔹 **Data integrity checks**  
+🔹 **Response structure verification**  
+🔹 **Value-based matching**  
+🔹 **Pattern & conditional validations**
+
+---
+
+## 💎 Hamcrest Magic Used
+
+✔ `equalTo()`  
+✔ `notNullValue()`  
+✔ `containsString()`  
+✔ `greaterThan()`  
+✔ `endsWith()`  
+
+> Clean. Readable. Maintainable.
 
 ---
 
 ## 🛠 Tech Stack
-- **Java**
-- **Rest Assured**
-- **TestNG / JUnit**
-- **Hamcrest Matchers**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-red?style=flat-square"/>
+  <img src="https://img.shields.io/badge/API-REST%20Assured-orange?style=flat-square"/>
+  <img src="https://img.shields.io/badge/TestNG-JUnit-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Assertions-Hamcrest-green?style=flat-square"/>
+</p>
 
 ---
 
-## 📌 Automate GET Request & Assert Status Code
+## 🎯 Why This Repo Stands Out
 
-```java
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+✨ Industry-grade validation practices  
+✨ Clean automation mindset  
+✨ Real-world API testing scenarios  
+✨ Scalable & reusable approach  
 
-import io.restassured.RestAssured;
-import org.testng.annotations.Test;
+---
 
-public class GetRequestTest {
+## 📈 Ideal For
 
-    @Test
-    public void Automate_GET_Request_Assert_Status_Code() {
+👨‍💻 Automation Test Engineers  
+🧪 API Testers  
+🚀 QA Engineers upgrading to API automation  
+📚 Learners aiming for real-world skills  
 
-        RestAssured.baseURI = "https://reqres.in/api";
+---
 
-        given()
-        .when()
-            .get("/users/2")
-        .then()
-            .assertThat()
-            .statusCode(200)
-            .log().all();
-    }
-}
+## 👨‍💻 Author
+
+**Kakara Sasikiran**  
+🚀 Automation Engineer | API Testing | Selenium | Playwright | Performance Testing  
+
+<p align="center">
+  ⭐ If this repository helped you, don’t forget to **STAR** it!
+</p>
