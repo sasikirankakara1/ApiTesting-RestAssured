@@ -1,4 +1,4 @@
-# 🚀 REST Assured – GET API Automation Mastery
+# 🚀 Truth from Endpoints 🔥 – API Automation with REST Assured
 
 <p align="center">
   <img src="https://img.shields.io/badge/API%20Automation-REST%20Assured-orange?style=for-the-badge"/>
