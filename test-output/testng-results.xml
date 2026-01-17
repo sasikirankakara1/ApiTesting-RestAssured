@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-16T21:11:53 IST" name="Default suite" finished-at="2026-01-16T21:11:57 IST" duration-ms="3266">
+  <suite started-at="2026-01-17T11:34:11 IST" name="Default suite" finished-at="2026-01-17T11:34:15 IST" duration-ms="4345">
     <groups>
     </groups>
-    <test started-at="2026-01-16T21:11:53 IST" name="Default test" finished-at="2026-01-16T21:11:57 IST" duration-ms="3266">
+    <test started-at="2026-01-17T11:34:11 IST" name="Default test" finished-at="2026-01-17T11:34:15 IST" duration-ms="4345">
       <class name="org.rest_assured_getting_started.ExampleOne">
-        <test-method signature="Assert_Response_Body()[pri:0, instance:org.rest_assured_getting_started.ExampleOne@17046283]" started-at="2026-01-16T21:11:53 IST" name="Assert_Response_Body" finished-at="2026-01-16T21:11:56 IST" duration-ms="2770" status="PASS">
+        <test-method signature="hamcrestValidations()[pri:0, instance:org.rest_assured_getting_started.ExampleOne@67a20f67]" started-at="2026-01-17T11:34:11 IST" name="hamcrestValidations" finished-at="2026-01-17T11:34:15 IST" duration-ms="4297" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Assert_Response_Body -->
-        <test-method signature="Automate_GET_Request_Assert_Status_Code()[pri:0, instance:org.rest_assured_getting_started.ExampleOne@17046283]" started-at="2026-01-16T21:11:56 IST" name="Automate_GET_Request_Assert_Status_Code" finished-at="2026-01-16T21:11:57 IST" duration-ms="469" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Automate_GET_Request_Assert_Status_Code -->
+        </test-method> <!-- hamcrestValidations -->
       </class> <!-- org.rest_assured_getting_started.ExampleOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

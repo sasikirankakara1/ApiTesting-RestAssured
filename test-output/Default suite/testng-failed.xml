@@ -5,7 +5,7 @@
     <classes>
       <class name="org.rest_assured_getting_started.ExampleOne">
         <methods>
-          <include name="Assert_Response_Body"/>
+          <include name="hamcrestValidations"/>
         </methods>
       </class> <!-- org.rest_assured_getting_started.ExampleOne -->
     </classes>
